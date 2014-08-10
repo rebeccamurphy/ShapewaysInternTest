@@ -33,6 +33,7 @@ public class Main {
 		int count =0;
 		int pairCount =0;
 		final int min =50;
+		final long startTime = System.currentTimeMillis();
 		
 		try {
 			ReadFile rfile = new ReadFile(file_name, 1000);
@@ -72,8 +73,6 @@ public class Main {
 			else
 				artistPop2.add(artistPop.get(i));
 		}
-		System.out.println(artistPop.size());
-		
 		for (int i=0; i<artistPop1.size(); i++){
 			for( int j=0; j< artistPop2.size(); j++){
 				for (int k =0; k< favoritesList.size(); k++){
@@ -98,6 +97,8 @@ public class Main {
 			System.out.println(e.getMessage());
 		}
 		
+		final long endTime = System.currentTimeMillis();
+		System.out.println("Total Execution Time " + (endTime- startTime)/1000.0 + " seconds");
 	}
 			
 }
