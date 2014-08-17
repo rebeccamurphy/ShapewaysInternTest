@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.TreeSet;
 
 public class ReadFile {
 	private String path;
@@ -70,6 +71,37 @@ public class ReadFile {
 			
 			HashSetInt sort = new HashSetInt();
 			sort.HashSetIntMethod(artistListPop);
+			
+		}
+		else if (choice==3)
+		{
+			FileReader fr = new FileReader(path);
+			BufferedReader textReader = new BufferedReader(fr);
+			HashMap<String, TreeSet<Integer>> artistListPop = new HashMap<String, TreeSet<Integer>>();
+			String[] list;
+			String artist;
+			int listNum;
+			for(int i =0; i<numLines; i++){
+				list = textReader.readLine().split(",");
+				
+				listNum=i;
+				for(int j =0; j<list.length; j++){
+					artist = list[j];
+					
+					if (!artistListPop.containsKey(artist)){
+						artistListPop.put(artist, new TreeSet<Integer>());
+					}
+					
+					if(artistListPop.containsKey(artist)){
+						artistListPop.get(artist).add(listNum);
+					}
+				}
+				
+			}
+			textReader.close();
+			
+			TreeSetInt sort = new TreeSetInt();
+			sort.TreeSetIntMethod(artistListPop);
 			
 		}
 	}
