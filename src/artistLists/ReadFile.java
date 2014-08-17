@@ -55,7 +55,7 @@ public class ReadFile {
 				listNum=i;
 				for(int j =0; j<list.length; j++){
 					artist = list[j];
-					System.out.println(artist);
+					
 					if (!artistListPop.containsKey(artist)){
 						artistListPop.put(artist, new HashSet<Integer>());
 					}
@@ -64,7 +64,7 @@ public class ReadFile {
 						artistListPop.get(artist).add(listNum);
 					}
 				}
-				break;
+				
 			}
 			textReader.close();
 			

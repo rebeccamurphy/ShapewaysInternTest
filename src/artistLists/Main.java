@@ -27,7 +27,7 @@ public class Main {
 		System.out.println("0 for arraylist method, 1 for hashset int method, 2 for hashset bitset method, 3 for int treeset " +
 				"method, 4 for bitset treeset method.");
 		choice = Integer.parseInt(scan.nextLine());
-		
+		scan.close();
 		final long startTime = System.currentTimeMillis(); //start timer
 		
 		try {
