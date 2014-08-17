@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class ReadFile {
 	private String path;
@@ -32,9 +35,39 @@ public class ReadFile {
 				}
 			}
 			textReader.close();
-			
 			ArrayListSort sort = new ArrayListSort();
 			sort.ArrayListMethod(favoritesList, artistList);
+			
+			
+		}
+		else if (choice==1)
+		{
+			FileReader fr = new FileReader(path);
+			BufferedReader textReader = new BufferedReader(fr);
+			HashMap<String, HashSet<Integer>> artistListPop = new HashMap<String, HashSet<Integer>>();
+			String[] list;
+			String artist;
+			int listNum;
+			for(int i =0; i<numLines; i++){
+				list = textReader.readLine().split(",");
+				
+				listNum=i;
+				for(int j =0; j<list.length; j++){
+					artist = list[j];
+					System.out.println(artist);
+					if (!artistListPop.containsKey(artist)){
+						artistListPop.put(artist, new HashSet<Integer>());
+					}
+					if(artistListPop.containsKey(artist)){
+						artistListPop.get(artist).add(listNum);
+					}
+				}
+				break;
+			}
+			textReader.close();
+			
+			HashSetInt sort = new HashSetInt();
+			sort.HashSetIntMethod(artistListPop);
 			
 			
 		}

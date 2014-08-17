@@ -1,0 +1,202 @@
+(Kasabian , Muse) 50
+(Muse , Kasabian) 50
+(Muse , Death Cab for Cutie) 54
+(Muse , The Cure) 53
+(Muse , Paramore) 75
+(Muse , Franz Ferdinand) 65
+(Muse , Arctic Monkeys) 113
+(Muse , System of a Down) 61
+(Muse , Green Day) 63
+(Muse , Radiohead) 128
+(Muse , Snow Patrol) 51
+(Muse , The Kooks) 53
+(Muse , The Strokes) 63
+(Muse , Linkin Park) 54
+(Muse , Pink Floyd) 68
+(Muse , Foo Fighters) 57
+(Muse , Incubus) 50
+(Muse , Kings of Leon) 67
+(Muse , MGMT) 57
+(Muse , 30 Seconds to Mars) 55
+(Muse , Coldplay) 113
+(Muse , Nirvana) 85
+(Muse , Oasis) 64
+(Muse , The Killers) 100
+(Muse , Metallica) 60
+(Muse , Placebo) 98
+(Muse , Queen) 52
+(Muse , Red Hot Chili Peppers) 72
+(Muse , The Beatles) 107
+(Muse , Lady Gaga) 73
+(Death Cab for Cutie , Muse) 54
+(Death Cab for Cutie , Radiohead) 57
+(Death Cab for Cutie , The Beatles) 56
+(The Cure , Muse) 53
+(The Cure , Radiohead) 61
+(The Cure , The Smiths) 54
+(Lily Allen , Lady Gaga) 51
+(Britney Spears , Lady Gaga) 62
+(Paramore , Muse) 75
+(Paramore , Lady Gaga) 66
+(Franz Ferdinand , Muse) 65
+(Franz Ferdinand , Arctic Monkeys) 54
+(Franz Ferdinand , Radiohead) 57
+(Franz Ferdinand , The Beatles) 52
+(Arctic Monkeys , Muse) 113
+(Arctic Monkeys , Franz Ferdinand) 54
+(Arctic Monkeys , Radiohead) 88
+(Arctic Monkeys , The Kooks) 53
+(Arctic Monkeys , The Strokes) 69
+(Arctic Monkeys , Kings of Leon) 57
+(Arctic Monkeys , MGMT) 56
+(Arctic Monkeys , Coldplay) 84
+(Arctic Monkeys , Nirvana) 54
+(Arctic Monkeys , Oasis) 61
+(Arctic Monkeys , The Killers) 76
+(Arctic Monkeys , Placebo) 50
+(Arctic Monkeys , The Beatles) 86
+(Ke$ha , Lady Gaga) 53
+(System of a Down , Muse) 61
+(System of a Down , Metallica) 53
+(Green Day , Muse) 63
+(Radiohead , Muse) 128
+(Radiohead , Death Cab for Cutie) 57
+(Radiohead , The Cure) 61
+(Radiohead , Franz Ferdinand) 57
+(Radiohead , Arctic Monkeys) 88
+(Radiohead , Pearl Jam) 51
+(Radiohead , The Strokes) 59
+(Radiohead , Pink Floyd) 70
+(Radiohead , Foo Fighters) 50
+(Radiohead , Kings of Leon) 54
+(Radiohead , Coldplay) 92
+(Radiohead , Nirvana) 74
+(Radiohead , Oasis) 61
+(Radiohead , The Killers) 70
+(Radiohead , Placebo) 72
+(Radiohead , The Smiths) 68
+(Radiohead , Red Hot Chili Peppers) 53
+(Radiohead , The Beatles) 113
+(Radiohead , David Bowie) 58
+(Pearl Jam , Radiohead) 51
+(Pearl Jam , Nirvana) 51
+(Snow Patrol , Muse) 51
+(The Kooks , Muse) 53
+(The Kooks , Arctic Monkeys) 53
+(The Strokes , Muse) 63
+(The Strokes , Arctic Monkeys) 69
+(The Strokes , Radiohead) 59
+(The Strokes , The Killers) 53
+(The Strokes , The Beatles) 60
+(Linkin Park , Muse) 54
+(Led Zeppelin , Pink Floyd) 58
+(Led Zeppelin , The Beatles) 63
+(Pink Floyd , Muse) 68
+(Pink Floyd , Radiohead) 70
+(Pink Floyd , Led Zeppelin) 58
+(Pink Floyd , The Beatles) 76
+(Foo Fighters , Muse) 57
+(Foo Fighters , Radiohead) 50
+(Foo Fighters , Nirvana) 52
+(Foo Fighters , Red Hot Chili Peppers) 53
+(Incubus , Muse) 50
+(Kings of Leon , Muse) 67
+(Kings of Leon , Arctic Monkeys) 57
+(Kings of Leon , Radiohead) 54
+(Kings of Leon , Coldplay) 67
+(Kings of Leon , The Killers) 52
+(MGMT , Muse) 57
+(MGMT , Arctic Monkeys) 56
+(MGMT , The Beatles) 51
+(The Rolling Stones , The Beatles) 61
+(30 Seconds to Mars , Muse) 55
+(Coldplay , Muse) 113
+(Coldplay , Arctic Monkeys) 84
+(Coldplay , Radiohead) 92
+(Coldplay , Kings of Leon) 67
+(Coldplay , Nirvana) 59
+(Coldplay , Oasis) 59
+(Coldplay , The Killers) 85
+(Coldplay , Placebo) 56
+(Coldplay , Red Hot Chili Peppers) 64
+(Coldplay , The Beatles) 86
+(Coldplay , Lady Gaga) 55
+(Nirvana , Muse) 85
+(Nirvana , Arctic Monkeys) 54
+(Nirvana , Radiohead) 74
+(Nirvana , Pearl Jam) 51
+(Nirvana , Foo Fighters) 52
+(Nirvana , Coldplay) 59
+(Nirvana , Oasis) 53
+(Nirvana , Placebo) 51
+(Nirvana , Red Hot Chili Peppers) 62
+(Nirvana , The Beatles) 90
+(Oasis , Muse) 64
+(Oasis , Arctic Monkeys) 61
+(Oasis , Radiohead) 61
+(Oasis , Coldplay) 59
+(Oasis , Nirvana) 53
+(Oasis , The Killers) 57
+(Oasis , The Beatles) 65
+(The Killers , Muse) 100
+(The Killers , Arctic Monkeys) 76
+(The Killers , Radiohead) 70
+(The Killers , The Strokes) 53
+(The Killers , Kings of Leon) 52
+(The Killers , Coldplay) 85
+(The Killers , Oasis) 57
+(The Killers , Placebo) 51
+(The Killers , Red Hot Chili Peppers) 51
+(The Killers , The Beatles) 70
+(Iron Maiden , Metallica) 54
+(Metallica , Muse) 60
+(Metallica , System of a Down) 53
+(Metallica , Iron Maiden) 54
+(Rihanna , Lady Gaga) 67
+(Placebo , Muse) 98
+(Placebo , Arctic Monkeys) 50
+(Placebo , Radiohead) 72
+(Placebo , Coldplay) 56
+(Placebo , Nirvana) 51
+(Placebo , The Killers) 51
+(Queen , Muse) 52
+(Queen , The Beatles) 61
+(The Smiths , The Cure) 54
+(The Smiths , Radiohead) 68
+(The Smiths , The Beatles) 54
+(Red Hot Chili Peppers , Muse) 72
+(Red Hot Chili Peppers , Radiohead) 53
+(Red Hot Chili Peppers , Foo Fighters) 53
+(Red Hot Chili Peppers , Coldplay) 64
+(Red Hot Chili Peppers , Nirvana) 62
+(Red Hot Chili Peppers , The Killers) 51
+(Red Hot Chili Peppers , The Beatles) 57
+(The Beatles , Muse) 107
+(The Beatles , Death Cab for Cutie) 56
+(The Beatles , Franz Ferdinand) 52
+(The Beatles , Arctic Monkeys) 86
+(The Beatles , Radiohead) 113
+(The Beatles , The Strokes) 60
+(The Beatles , Led Zeppelin) 63
+(The Beatles , Pink Floyd) 76
+(The Beatles , MGMT) 51
+(The Beatles , The Rolling Stones) 61
+(The Beatles , Coldplay) 86
+(The Beatles , Nirvana) 90
+(The Beatles , Oasis) 65
+(The Beatles , The Killers) 70
+(The Beatles , Queen) 61
+(The Beatles , The Smiths) 54
+(The Beatles , Red Hot Chili Peppers) 57
+(The Beatles , David Bowie) 54
+(The Beatles , Lady Gaga) 61
+(David Bowie , Radiohead) 58
+(David Bowie , The Beatles) 54
+(Lady Gaga , Muse) 73
+(Lady Gaga , Lily Allen) 51
+(Lady Gaga , Britney Spears) 62
+(Lady Gaga , Paramore) 66
+(Lady Gaga , Ke$ha) 53
+(Lady Gaga , Coldplay) 55
+(Lady Gaga , Rihanna) 67
+(Lady Gaga , The Beatles) 61
