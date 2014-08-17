@@ -14,20 +14,31 @@ public class ReadFile {
 		numLines = num_lines;
 	}
 	
-	public void OpenFile(ArrayList<String[]> favoritesList, ArrayList<String> artistList) throws IOException{
-		
-		FileReader fr = new FileReader(path);
-		BufferedReader textReader = new BufferedReader(fr);
-		
-		for(int i =0; i<numLines; i++){
-			favoritesList.add(textReader.readLine().split(","));
-			for(int j =0; j<favoritesList.get(i).length; j++){
-				if (!artistList.contains(favoritesList.get(i)[j]))
-					artistList.add(favoritesList.get(i)[j]);
+	public void OpenFile(int choice) throws IOException{
+		if (choice==0)
+		{
+			
+			ArrayList<String> artistList = new ArrayList<String>();
+			ArrayList<String[]> favoritesList =  new ArrayList<String[]>();
+			
+			FileReader fr = new FileReader(path);
+			BufferedReader textReader = new BufferedReader(fr);
+			
+			for(int i =0; i<numLines; i++){
+				favoritesList.add(textReader.readLine().split(","));
+				for(int j =0; j<favoritesList.get(i).length; j++){
+					if (!artistList.contains(favoritesList.get(i)[j]))
+						artistList.add(favoritesList.get(i)[j]);
+				}
 			}
+			textReader.close();
+			
+			ArrayListSort sort = new ArrayListSort();
+			sort.ArrayListMethod(favoritesList, artistList);
+			
+			
 		}
-		textReader.close();
-		
 	}
 
+	
 }
