@@ -35,6 +35,7 @@ public class ReadFile {
 				}
 			}
 			textReader.close();
+			
 			ArrayListSort sort = new ArrayListSort();
 			sort.ArrayListMethod(favoritesList, artistList);
 			
@@ -58,6 +59,7 @@ public class ReadFile {
 					if (!artistListPop.containsKey(artist)){
 						artistListPop.put(artist, new HashSet<Integer>());
 					}
+					
 					if(artistListPop.containsKey(artist)){
 						artistListPop.get(artist).add(listNum);
 					}
@@ -68,7 +70,6 @@ public class ReadFile {
 			
 			HashSetInt sort = new HashSetInt();
 			sort.HashSetIntMethod(artistListPop);
-			
 			
 		}
 	}
