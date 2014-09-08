@@ -106,6 +106,41 @@
     {
       document.getElementById('box').style.display = 'none';
     }
+    YUI().use('transition', function(Y) {
+    var instructs = Y.one('#introduction');
+    var testStuff = Y.one('#theTest');
+      instructs.one('a').on('click', function(e) {
+          e.preventDefault();
+          
+          instructs.transition({
+             duration: 10, // seconds
+              easing: 'ease-out',
+              height: 0,
+              width:0,
+              //bottom: '100px',
+              opacity: 0
+          }, function() {
+              this.remove();
+          });
+
+          testStuff.transition({
+              duration: 5, // seconds
+              easing: 'ease-in', // CSS syntax
+              height: 0,
+              top: '100px',
+
+
+              opacity: {
+                  delay: 1.5,
+                  duration: 0.75,
+                  value: 0
+              }
+          }, function() {
+              node.show();
+            });
+      });
+    });    
+
   </script>
 
   <title>Shapeways.com HTML Test</title>
@@ -124,7 +159,7 @@
       Please modify this HTML with your answers (keep all CSS and Javascript in this file).
       <br><br><br>
       Save your test as [yourName]-test.html<br><br>
-      <a href="javascript:void(0);" onclick="beginTheTest()">Click here to begin the test</a>
+      <a id="startButton" href="javascript:void(0);">Click here to begin the test</a>
     </p>
   </div>
   <style type="text/css">
