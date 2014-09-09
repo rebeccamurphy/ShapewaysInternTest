@@ -106,40 +106,24 @@
     {
       document.getElementById('box').style.display = 'none';
     }
-    YUI().use('transition', function(Y) {
-    var instructs = Y.one('#introduction');
-    var testStuff = Y.one('#theTest');
-      instructs.one('a').on('click', function(e) {
-          e.preventDefault();
-          
-          instructs.transition({
-             duration: 10, // seconds
-              easing: 'ease-out',
-              height: 0,
-              width:0,
-              //bottom: '100px',
-              opacity: 0
-          }, function() {
-              this.remove();
-          });
+   YUI().use('transition', function (Y) {
+    var introduction = Y.one('#introduction'),
+      test = Y.one('#theTest');
 
-          testStuff.transition({
-              duration: 5, // seconds
-              easing: 'ease-in', // CSS syntax
-              height: 0,
-              top: '100px',
+      Y.one('#startTest').on('click', function (e) {
+        e.preventDefault();
 
-
-              opacity: {
-                  delay: 1.5,
-                  duration: 0.75,
-                  value: 0
-              }
-          }, function() {
-              node.show();
-            });
+      introduction.transition({
+        width: 0,
+        height: 0
       });
-    });    
+      // first set display to block, then change opacity
+      // so it fades in
+      test.setStyle('display', 'block').transition({
+        opacity: 1
+      });
+    });
+  });  
 
   </script>
 
